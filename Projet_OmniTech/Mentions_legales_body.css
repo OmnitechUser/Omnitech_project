@@ -1,0 +1,225 @@
+body{
+        font-family: Albert Sans , sans-serif;
+}
+.liste_1 li{
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction:initial;
+    float: inline-start;
+    }
+    .IMAGE{
+        height:30vh;
+        width: 250px;
+     margin: 20px;
+     justify-content: center;
+        align-items: center;
+        box-shadow: 20px 15px 35px rgba(95, 102, 102, 0.993);
+        border-radius: 2mm;
+    }
+    .titre_1{
+    
+            flex-wrap:wrap ;
+            font-size: 25px;
+            color: rgb(0, 89, 255);
+    }
+    .texto{
+            color:rgb(0, 174, 255);
+    }
+    .sectionCommunication{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+    }
+    .expertComment{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+            width: 500px;
+            height: 100%;
+            padding: 10px;
+            position: relative;
+            right:-32.5%;
+            background-color: rgba(118, 171, 223, 0.164);
+            border-radius: 3mm;
+    }
+    .vosServiteurs{
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+    }
+    .expertise{
+            margin-bottom: 20px;
+            color: rgb(0, 89, 255);
+    }
+    .sectionSellBuy{
+            margin-top:55px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+    }
+    .sectionCommunication{
+            margin-top:55px;
+    }
+    @media screen and (max-width:1200px) {
+            .expertComment{
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 80px;
+                    width: 100%;
+                    height:100%;
+                    margin-bottom: 25px;
+                    position: relative;
+                    right: -1%;
+                    
+            }
+    
+    }
+    .liste_1 li{
+        list-style-type: none;
+        display: inline-flex;
+        flex-direction:initial;
+        float: inline-start;
+        }
+        .IMAGE{
+            height:30vh;
+            width: 250px;
+            margin: 20px;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 20px 15px 35px rgba(95, 102, 102, 0.993);
+            border-radius: 2mm;
+            cursor: pointer;
+        }
+        .titre_1{
+        
+                flex-wrap:wrap ;
+                font-size: 25px;
+                color: rgb(0, 89, 255);
+        }
+        .texto{
+                color:rgb(0, 174, 255);
+        }
+        .sectionCommunication{
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+        }
+        .expertComment{
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin-top: 80px;
+                width: 500px;
+                height: 100%;
+                padding: 10px;
+                position: relative;
+                right:-32.5%;
+                background-color: rgba(118, 171, 223, 0.164);
+                border-radius: 3mm;
+        }
+        .vosServiteurs{
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+        }
+        .expertise{
+                margin-bottom: 20px;
+                color: rgb(0, 89, 255);
+        }
+        .sectionSellBuy{
+                margin-top:55px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+        }
+        .sectionCommunication{
+                margin-top:55px;
+        }
+        @media screen and (max-width:1200px) {
+                .expertComment{
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 80px;
+                        width: 100%;
+                        height:100%;
+                        margin-bottom: 25px;
+                        position: relative;
+                        right: -1%;
+                        
+                }
+        
+        }
+ 
+    .mentions{
+        width: 90%;
+        background-color: gray;
+        height: 90%;
+    }
+    table{
+        margin-top: 80px;
+    }
+    td{
+        background-color: rgb(71, 70, 70);
+    }
+    table{
+        background-color: rgb(71, 70, 70);
+        width:1000px;
+        height:750px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:25px ;
+        padding-bottom: 100px;
+        padding-right:35px ;
+        padding-left: 35px;
+        border-collapse: separate;
+        border-spacing: 17px;
+    }
+    table li {
+        list-style-type:disc;
+        margin-left:32px ;
+        font-weight: bold;
+        color: honeydew;
+        font-size: 14px;
+    }
+    .cellule_mere{
+            width: 375px;
+        
+    }
+    .liste_I{
+            width: 303px;
+    }
+    .liste_II{
+            width:310px
+    }
+    .Identity{
+            padding-top: 40px;
+    }
+    .coordonnées{
+            padding-bottom: 40px;
+    }
+    .liste_I,.liste_III {
+            background-color: rgba(0, 162, 255, 0.795);
+            margin-top: -25px;
+    }
+    .liste_II, .liste_IV{
+            background-color:rgb(0, 119, 255);
+    }
+    .liste_V, .liste_VI,.liste_VII{
+        background-color:rgba(0, 255, 242, 0.74);
+    }
+    .cellule_mere{
+            font-size: 20.5px;
+            color: white;
+    }
+
+
+    .titleMention{
+            position: relative;
+            top: 40px;
+            margin-left: 250px;
+            margin-top: 80px;
+            font-size: 32px;
+    }

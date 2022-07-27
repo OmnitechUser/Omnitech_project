@@ -1,0 +1,154 @@
+.slogan{
+    width: 100%;
+    height: 490px;
+    background: url(sloganimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 85px;
+}
+
+.btn{
+    border: 2px solid white;
+    outline: none;
+    background: transparent;
+    margin: 5px 15px;
+    display: inline-flex;
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-size: 25px;
+    color: rgba(249, 250, 250, 0.904);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.418);
+    transition: 300ms ease-in-out;
+}
+.boutons{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 255, 0.651);
+}
+
+.btn_containers{
+    position: relative;
+    top: 250px;
+    right: 28%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Texte{
+    
+    align-items: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: blue;
+    top: -350px;
+    margin: 0px;
+    padding: 0;
+    right: 350px;
+    position: relative;
+}
+.special{
+    color: rgb(0, 217, 255);
+    font-weight: 300;
+    font-size: 25px;
+    
+}
+.options{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.sub_menu:hover{
+    background-color: rgba(11, 180, 247, 0.527);
+    border-top: 1.5px solid rgba(0, 0, 255, 0.753);
+    border-bottom: 1.5px solid rgba(0, 0, 255, 0.753);
+    border-radius: 3mm;
+    cursor: pointer;
+    
+}
+.sub_menu{
+    height: 40%;
+    width: 65%;
+    margin-left:10px ;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom:20px;
+    border-radius: 3mm;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    border:none;
+    outline: none;
+}
+span{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Deco{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom: 15px;
+    color: rgb(3, 10, 97);
+}
+strong{
+    color: rgb(0, 89, 255);
+}
+.NosDomaines{
+    font-size: 26px;
+}
+.traits{
+    position: relative;
+    top: -50px;
+}
+div{
+    height: 1.5px;
+    width: 90%;
+    background-color: turquoise;
+}
+.long{
+margin-left: 10px;
+}
+.short{
+    width:45%;
+    height: 2.5px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.Domaine{
+    height: 125px;
+    width: 85px;
+}
+.Bureautique{
+    height: 125px;
+    width: 195px;
+}
+.sub_menu_items{ 
+    height: 45px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    margin-top: 150px;
+    text-decoration: none;
+    color: rgb(23, 93, 243);
+}

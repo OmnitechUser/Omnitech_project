@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+*, ::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Albert Sans', sans-serif;
+}
+html{
+    min-width: 360px;
+}
+.testing{
+ transition: 300ms ease-in-out;
+    display: none;
+}
+
+.testing_new{
+    display: block;
+    transition: 150ms ease-in-out;
+}
+body{
+   height:100%;
+   width: 100%;
+   font-family: Albert Sans ,sans-serif;
+   background:#fff;
+}
+.omnitech{
+    position: relative;
+    top: 0;
+    right: auto;
+}
+
+html{
+    min-width: 353px;
+    overflow-x: scroll;
+}
+.sous-menu-containers .sous-menu{
+    background-color: rgba(71, 71, 179, 0.644);
+    transition: all 350ms ease-in-out;
+}
+/**********special traitssss2**********/
+@media screen and (max-width:504px) {
+     .traitss_2{
+         position: relative;
+         top: 160px;
+     }    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+
+.IconeMenu{
+    display: none;
+    position: relative;
+    float:right;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    margin:15px;
+}
+.IconeMenu_display{
+    display: block;
+}
+.iconemenu{
+    display: none;
+    height: 35px;
+    width: 35px;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    top: 25px;
+}
+.iconemenu_affichage{
+    display: block;
+}
+.affichage{
+    display: block;
+}
+.IconeMenu .close{
+    background: url('racourcis.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.headerpro .IconeMenu{
+    filter: invert(1);
+}
+.headerpro .nav_bar{/*******MODIFICATION********/
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5px;
+    top: 2px;
+    right: 16%;
+    width: 100%;
+    margin-left: 16.5%;
+    transition: 300ms ease-in-out;
+}
+.headerpro .menu{ 
+    width:70%;   /*******MODIFICATION********/
+    height:70px;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(141, 138, 138, 0.274);
+    border-bottom: rgba(75, 74, 74, 0.589) solid 0.25px;
+    padding:20px 0px ;
+ }
+.headerpro .menu li {
+     position: relative;
+     top: 00px;
+     margin: auto;
+ }
+ .headerpro .favicons{
+     position: relative;
+     top: 00px;
+ }
+ .menu:hover{
+     background-color: rgb(70, 71, 71);
+     transition: 200ms ease-in-out;
+ }
+ .sous-menu-containers{
+     display: none;
+ }
+ @media screen and (max-width:1210px) {
+     .headermain{
+         padding-left: 0px;
+         padding-right: 0px;
+     }
+ }
+/***************************************************************************************************************/
+/*******************************************************************************************************************************/
+/****************************************************************************************************************/
+.headermain>ul{
+    margin: 0px;
+    padding: 0px;
+}
+.headermain>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.headermain li{
+    list-style-type: none;
+}
+.headermain>ul>li{
+    float: right;
+    position: relative;
+}
+.headermain>ol>li{
+    float: left;
+    position: relative;
+}
+.sous-menu-containers{
+    display:none;
+}
+.headermain{
+    width: 100%;
+    height: 66px;
+    padding-left: 100px;
+    padding-right: 160px;
+    color: rgba(103, 187, 176, 0.623);
+  /*  background:radial-gradient(rgba(197, 229, 240, 0.76),rgba(51, 61, 148, 0.719));*/
+    background-color: rgba(223, 221, 221, 0.575);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+
+}
+.headermain a{
+    display: inline-block;
+    text-decoration: none;
+}
+.headermain>ul>li>a{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 10px;
+    color: rgb(0, 0, 0);
+}
+.menupro .favicons{
+    position: relative;
+    top: 12px;
+}
+.menu_items_pro{
+    font-weight: 500;
+}
+.menupro{
+    margin-right: 6px;
+    margin-left: 6px;
+    background-color:transparent;
+    width: 139px;
+    text-align: center;
+    height: 66px;
+}
+.menupro:hover .menu_items_pro{
+    color: rgb(19, 117, 230);
+}
+.headermain li:hover .sous-menu-containers{
+    background-color:rgba(104, 124, 212, 0.759) ;
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left:0;
+    padding: 0px;
+    z-index: 1000;
+}
+.headermain>ul>li:hover{
+    border-top: 2px solid blue;
+    transition: all 0.3s ease-in-out;
+}
+.sous-menu-containers li{
+    border-bottom: 1px solid blue;
+    text-align: center;
+}
+.sous-menu-containers li:hover{
+    background-color: rgba(104, 124, 212, 0.959);
+    transition: 200ms ease-in-out;
+}
+.sous-menu-containers li a{
+    padding: 15px;/**a ne surtout pas modifier**/
+    font-size: 13px;
+    color: rgb(6, 252, 240);
+    width:140px;
+    height:40px;
+}
+.sous-menu{
+    background-color: rgba(104, 124, 212, 0.692);
+    border-radius: 0mm;
+}
+.headermain_scroll{
+    background-color: rgba(185, 175, 175, 0.918);
+    border-bottom: 2px solid rgb(34, 104, 233);
+}
+.menu{ 
+   margin:0px 7px;
+   height: 100%;
+   align-items: center;
+   text-align: center;
+}
+.menu:hover>a{
+    color: rgba(0, 153, 255, 0.699);
+}
+
+
+.logo{
+ width: 135px; 
+ height: 40px;
+ margin-left: 15px;
+ cursor: pointer;
+ margin-top: 10px; 
+ 
+}
+
+.menu_items{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.selection{
+    border-top: 2px solid blue;
+}
+.favicons{
+    width: 30px;
+    height: 25px;
+    padding-right: 7px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.iconePanier {
+    position: relative;
+    border-left: 0.5px solid rgb(158, 152, 152);
+    float: right;
+    width: 78px;
+    height: 37px;
+    padding: 0px 25px;
+    left: 140px;
+    top: 12px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.iconePanier img{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: rgba(160, 156, 156, 0.192);
+    padding: 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+.iconePanier img:hover {
+    background: rgba(119, 116, 116, 0.425);
+}
+/*********************************************************************************************************************/
+/*****************************************************************************/
+/********************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(32, 32, 32);
+	width: 100%;
+    z-index: 1000;
+    position:relative;
+    top: 250px;
+    margin-top: -200px;
+}
+.nav_footer {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Mini-footer{
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.descriptions{
+    width: 250px;
+    position: relative;
+    margin: 10px 45px;
+    text-align: center;
+    color:white;
+    transition: all 0.3s ease-in-out;
+}
+.format{
+    background-color: rgb(15, 13, 13);
+    border: solid white 1px;
+    justify-content: left;
+    border-radius:3mm ;
+    padding: 25px 15px;
+}
+.creater {
+    position: relative;
+    top: -25px;
+    width: 100%;
+    font-size: 17px;
+    color: rgba(245, 245, 245, 0.918);
+    text-align: center;
+}
+.creater i{
+    font-size: 15px;
+    cursor: pointer;
+}
+.creater u {
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+.descriptions h4 {
+    color: rgba(0, 140, 255, 0.973);
+    margin-bottom: 25px;
+}
+.address{
+    display: inline-block;
+    width: 220px;
+    height:30px;
+    border: none;
+    position: relative;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: rgba(101, 100, 102, 0.493);
+    color: white;
+    font-size: 15px;
+    font-family: Albert Sans ,sans-serif;
+}
+.mail{
+    display: inline-block;
+    width: 220px;
+    height:100px;
+    border: none;
+    position: relative;
+    border-radius: 2px;
+    padding: 5px 10px;
+    background-color: rgba(101, 100, 102, 0.493);
+    color: white;
+    font-family: Albert Sans ,sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.submit{
+    margin: 0px auto;
+    display: inline-block;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    position: relative;
+    border-radius: 2px;
+    color: rgb(246, 246, 250);
+    background-color: rgb(55, 89, 156);
+    font-weight:400;
+    font-family: Albert Sans ,sans-serif;
+    transition: all 250ms ease-in-out;
+}
+.marginTop{
+    margin-top: 8px;
+}
+.submit:hover{
+    background-color: rgba(55, 89, 156, 0.575);
+    cursor: pointer;
+}
+.legalMentions {
+    width: 250px;
+    position: relative;
+    margin: 20px 45px;
+    text-align: center;
+    color:white;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accueil_click{
+    border-bottom: 2px blue solid;
+}
+.test{
+    display: none;
+}
+.test_affiche{
+    display: block;
+}
+@media screen and (max-width:1125px) {
+    .headermain{
+        padding-left: 20px;
+    }
+    .iconePanier{
+        left: 110px;
+        padding-right: 0px;
+    }
+
+}
+@media screen and  (max-width:1030px) {
+    .IconeMenu{
+display: none;
+    position: relative;
+    float:right;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin:25px;
+}
+.IconeMenu_display{
+    display: block;
+}
+.iconemenu{
+    display: none;
+    height: 25px;
+    width: 25px;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    top: 25px;
+}
+.iconemenu_affichage{
+    display: block;
+}
+.affichage{
+    display: block;
+}
+.IconeMenu .close{
+    background: url('racourcis.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.headerpro .IconeMenu{
+    filter: invert(1);
+}
+        .options{
+            display: flex;
+            flex-direction: column;
+        }
+        .sub_menu{
+            margin-top: 10px;
+        }
+        .btn_containers{
+            display: flex;
+            flex-direction: column;
+        }
+        .boutons{ 
+            padding-left:60%;
+            align-items: center;
+        }
+
+        .btn1{
+        margin-top:-5%;
+        }
+        .Texte{
+         position: relative;
+         left: 0;
+        }
+        
+        .headermain>ul{
+         display: none;/****MODIFIES*****/
+        }
+        .IconeMenu{
+            display: block;
+            height: 35px;
+            width: 35px;
+            margin: 15px;
+            border-radius: 50%;
+        }
+        .iconemenu{
+            height: 35px;
+            width: 35px;
+            position: relative;
+            top: 15px;
+        }
+        .IconeMenu:hover{
+            background-color: rgba(156, 184, 202, 0.616);
+            transition: 100ms ease-in-out;
+        }
+        .iconemenu:hover{
+            background-color:rgba(156, 184, 202, 0.616) ;
+            transition: 150ms ease-in-out;
+        }
+        .IconeMenu:active{
+            height: 33.5px;
+            width: 33.5px;
+            margin: 15.5px;
+        }
+        .iconemenu:active{
+            height: 33.5px;
+            width: 33.5px;
+            
+        }
+        .headerpro .nav_bar{/*******MODIFICATION********/
+            display: flex;
+            flex-direction: column-reverse;
+            position: relative;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin-top: -3px;
+            top: 0px;
+            left: -1126px;
+            right: 16.5%;
+            width: 100%;
+            margin-left: 16.5%;
+            transition: 300ms ease-in-out;
+            background-color: rgb(54, 54, 54);
+            padding:10px 0;
+            border-radius: 1mm;
+        
+        }
+        .defiler{
+            animation: coulisser 300ms;
+            transform: translateX(1126px);
+        }
+        @keyframes coulisser {
+            0%{
+                transform: translateX(0px);
+            }
+            100%{
+                transform: translateX(1126px);
+            }
+        }
+        .headermain{
+            padding-left: 50px;
+        }
+        .headerpro .menu{ 
+            width:100%;   /*******MODIFICATION********/
+            height:70px;
+            align-items: center;
+            text-align: center;
+            background-color:rgb(141, 141, 141);
+            border-bottom: rgb(255, 254, 254) solid 0.5px;
+            padding:20px 0px ;
+         }
+        .headerpro .menu a {
+             position: relative;
+             top: 00px;
+             font-size: 15px;
+             color: white;
+             font-weight: 350;
+         }
+         .ligne{
+             border-top: solid 0.5px rgb(255, 252, 252);
+         }
+         .headerpro .favicons{
+             position: relative;
+             top: 00px;
+         }
+         .menu:hover{
+             background-color: rgba(133, 133, 133, 0.726);
+             transition: 200ms ease-in-out;
+         }
+         .sous-menu-containers{
+             display: none;
+         }
+        
+    }
+@media screen and (max-width:475px) {
+    .headermain{
+        padding-left: 0px;
+        padding-right: 70px;
+    }
+}

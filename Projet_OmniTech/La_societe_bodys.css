@@ -1,0 +1,253 @@
+.presiGeneral {
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    background:#fff;
+}
+
+.presentation {
+    position: relative;
+    width: 462.4px;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.presentation h4 {
+    font-size: 27px;
+}
+.presentation p {
+    margin-top: 10px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.nousVoici {
+    width: 594.5px;
+    height: 400px;
+    background: url(hommeAffaires.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+.propos {
+    position: relative;
+    width: 100%;
+    background: white;
+    text-align: center;
+    margin-top: 45px;
+}
+.titlePropos {
+    position: relative;
+}
+.titlePropos h4 {
+    font-size: 25px;
+}
+.smalline {
+    width: 85px;
+    height: 1px;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    background: rgb(0, 153, 255);
+}
+.titlePropos p {
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+
+.avantPropos {
+    position: relative;
+}
+.avantPropos .grandPropos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.avantPropos .grandPropos li {
+    margin: 15px 15px;
+}
+.avantPropos .grandPropos li a {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: text;
+    transition: all 0.3s ease-in-out;
+}
+.avantPropos .grandPropos li a h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 81, 255);
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.avantPropos .grandPropos li a h4:hover {
+    color: rgb(0, 183, 255);
+}
+.avantPropos .grandPropos li a img{
+    width: 8%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.serviteurs {
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.serviteurs .presentService {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(145, 144, 144, 0.384);
+    outline: none;
+}
+.serviteurs .presentService h4 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+.serviteurs .presentService ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.serviteurs .presentService ul li {
+    width: 220px;
+    height: 300px;
+    padding: 2px 7px;
+    background: #ffff;
+    outline: none;
+    margin: 0px 45px;
+    border-radius: 1.2mm;
+    margin-bottom: 15px;
+}
+.serviteurs .presentService ul li .identService {
+    width: 100%;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    background: url(hommeAffaires.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.presentService ul li h5 {
+    font-size: 20px;
+    margin-top: 6px;
+}
+.presentService ul li p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+.proposComment{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+.proposComment h4 {
+    font-size: 25px;
+    margin-top: 25px;
+}
+.proposComment p {
+    font-size: 16px;
+    margin-top: 20px;
+    position: relative;
+}
+.legalMention {
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(0, 89, 255);
+    transition: all 0.3s ease-in-out;
+}
+.legalMention:hover {
+    color: rgb(0, 47, 255);
+}
+
+
+
+
+
+
+
+.partenaires {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+.partenaires h4 {
+    font-size: 25px;
+    margin-top: 0px;
+}
+.partenaires ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: center;
+    align-items: center;
+}
+.partenaires ul li {
+  padding: 25px;
+  margin: 10px 25px;
+}
+.partenaires ul li img {
+    width: 150px;
+}
+
+
+
+
+.propos,
+.serviteurs,
+.proposComment,
+.partenaires ,footer{
+    font-family: Albert Sans ,sans-serif;
+}

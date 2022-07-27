@@ -1,0 +1,151 @@
+*, ::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+   width: 100%;
+   height:100vh;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header>ul{
+    margin: 0px;
+    padding: 0px;
+}
+header>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header li{
+    list-style-type: none;
+}
+header>ul>li{
+    float: right;
+    position: relative;
+}
+header>ol>li{
+    float: left;
+    position: relative;
+}
+.sous-menu-containers{
+    display:none;
+}
+header{
+    width: 100%;
+    height: 66px;
+    background-color:rgb(248, 251, 255);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+}
+header a{
+    display: inline-block;
+    text-decoration: none;
+}
+header>ul>li>a{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+header li:hover .sous-menu-containers{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left:0;
+    padding: 0px;
+    z-index: 1000;
+}
+header>ul>li:hover{
+    border-top: 2px solid blue;
+    transition: all 0.3s ease-in-out;
+}
+.sous-menu-containers li{
+    border-bottom: 1px solid blue;
+    text-align: center;
+}
+.sous-menu-containers li:hover{
+    background-color: rgba(104, 124, 212, 0.959);
+    transition: 200ms ease-in-out;
+}
+.sous-menu-containers li a{
+    padding: 15px;/**a ne surtout pas modifier**/
+    font-size: 13px;
+    color: rgb(6, 252, 240);
+    width:140px;
+    height:40px;
+}
+.sous-menu{
+    background-color: rgba(104, 124, 212, 0.692);
+    border-radius: 0mm;
+}
+.header_scroll{
+    background: white;
+    border-bottom: 3px solid rgba(9, 145, 235, 0.877);
+    border-radius: 4px;
+}
+.menu{ 
+   margin:0px 10px;
+   width: 140px;
+   height: 100%;
+   align-items: center;
+   text-align: center;
+}
+.menu:hover>a{
+    color: rgba(0, 153, 255, 0.699);
+}
+
+.menu_items{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.selection{
+    border-top: 2px solid blue;
+}
+.favicons{
+    width: 30px;
+    height: 25px;
+    padding-right: 7px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer{
+	background: white;
+	width: 100%;
+	height: 87px;
+    z-index: 1000;
+}
+.nav_footer{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    bottom: 0;
+    background-color: rgba(0, 195, 255, 0.233);
+    text-align: center;
+}
+.copyright{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(42, 42, 194);
+    cursor: pointer;
+}
+.logo{
+    width: 150px;
+    height: 40px;
+    left: 15px;
+    cursor: pointer;
+    top: 15px;
+}
